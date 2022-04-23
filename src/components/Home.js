@@ -9,7 +9,7 @@ const Home = (props) => {
   console.log("props", counts);
   return (
     <div>
-      <Header />
+      <Header counts={counts} />
       <Homepage />
       <Checkout />
       <div className="row row-cols-1 row-cols-md-3 g-4">
