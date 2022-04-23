@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.cart {
+  position: relative;
+}
+.cart span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11px;
+  height: 11px;
+  background-color: white;
+  z-index: 200;
+  position: absolute;
+  border-radius: 50%;
+  color: black;
+  font-size: 10px;
+  top: 3px;
+  right: 4px;
+  font-weight: 700;
+}
